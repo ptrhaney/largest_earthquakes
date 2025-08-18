@@ -107,7 +107,7 @@ require([
 
   // define the earthquakes layer
   const earthquakeLayer = new CSVLayer({
-    url: "./largest_earthquakes_visualized.csv",
+    url: "./largest_earthquakes_visualized_1.csv",
     elevationInfo: exaggeratedElevation,
     screenSizePerspectiveEnabled: false,
     renderer: {
